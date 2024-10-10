@@ -1,6 +1,4 @@
 function start() { 
-    let n;
-    n = prompt("Digite seu nome ")
     console.log('Voce tem 10000 pontos para colocar em 3 atributos distintos')
     console.log('Saude Mental')
     console.log('Fisico')
@@ -9,7 +7,9 @@ function start() {
     valInicial()
 }
 function valInicial() {
-    let sm , vs, vf;
+    let sm , vs, vf, n;
+
+    n = prompt("Digite seu nome ")
     do{
         sm = prompt("Valor da Saude Mental: ");
         vf = prompt("Valor do Fisico: "); 
@@ -84,10 +84,10 @@ function valInicial() {
             id += 1;
 
         console.log('\n------Valores atuais-----')
-        console.log('Sua idade:' + id + 'anos')
-        console.log('Saude Mental:' + sm)
-        console.log('Fisico:' + vf)
-        console.log('Vida social:' + vs)
+        console.log('Sua idade: ' + id + 'anos')
+        console.log('Saude Mental: ' + sm)
+        console.log('Fisico: ' + vf)
+        console.log('Vida social: ' + vs)
         
         
 
@@ -156,9 +156,9 @@ function valInicial() {
     id += 1;
     console.log('\n\n------Valores atuais-----')
     console.log('Sua idade: ' + id + ' anos')
-    console.log('Saude Mental:' + sm)
-    console.log('Fisico:' + vf)
-    console.log('Vida social:' + vs)
+    console.log('Saude Mental: ' + sm)
+    console.log('Fisico: ' + vf)
+    console.log('Vida social: ' + vs)
 
 
     console.log('\n\nEscolha-qual-caminho-vai-trilhar')
@@ -221,9 +221,9 @@ function valInicial() {
     id += 1;
     console.log('\n\n------Valores atuais-----')
     console.log('Sua idade: ' + id + ' anos')
-    console.log('Saude Mental:' + sm)
-    console.log('Fisico:' + vf)
-    console.log('Vida social:' + vs)
+    console.log('Saude Mental: ' + sm)
+    console.log('Fisico: ' + vf)
+    console.log('Vida social: ' + vs)
     console.log('Parabens ' + n + ' você completou seus 18 anos e saiu da adolescência, sua vida  sera estável daqui pra frente.')
 
 }
